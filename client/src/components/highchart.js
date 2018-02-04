@@ -33,8 +33,6 @@ const PieChart = props => {
           id="total-consumption"
           name="Total consumption"
           data={props.entries}
-          center={[170, 80]}
-          size={150}
           showInLegend={true}
         />
         <Tooltip formatter={tooltipFormatter} />
